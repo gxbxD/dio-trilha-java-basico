@@ -1,27 +1,3 @@
 # Desafio Modelagem e Diagramação de um Componente iPhone
 
-classDiagram
-    class ReprodutorMusical {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
-    }
-
-    class AparelhoTelefonico {
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-    }
-
-    class NavegadorInternet {
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
-
-    class iPhone {
-    }
-
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+[![](https://mermaid.ink/img/pako:eNptks1uwjAMx1-lyqnT4AV6mIS2yw5DaEw75WIS01pL7cpN0Abi3ZdBQXQlp-Rvxz9_HYwTj6YyLkDfvxDUCq3lIp-TUrxjp-JTFH1LPTkIxeFs_juPURxo-XCjdJD6f1KPAR0JwxCiXEclrov29Bo8j5ZvsYsOFEMjH_nvVpicjLiB6gwZ4nBqUeWWCBHZ4zgLykEI9FlUkeRT9uV98hJ2WIMXfeWIyhhHYPymDekKauJrHUnDCO7pXO1SdrDYQDnOLEGgPVxC3M-BVo0wXsBX4yDP50_TsUw8ph2cuExKtWxmJjezBfJ5J058a2KDLVpT5asH_bLG8jH7Qaavf9iZKmrCmVFJdWOqLYQ-v1Ln8xSGhRrU4y9LDsfL?type=png)](https://mermaid.live/edit#pako:eNptks1uwjAMx1-lyqnT4AV6mIS2yw5DaEw75WIS01pL7cpN0Abi3ZdBQXQlp-Rvxz9_HYwTj6YyLkDfvxDUCq3lIp-TUrxjp-JTFH1LPTkIxeFs_juPURxo-XCjdJD6f1KPAR0JwxCiXEclrov29Bo8j5ZvsYsOFEMjH_nvVpicjLiB6gwZ4nBqUeWWCBHZ4zgLykEI9FlUkeRT9uV98hJ2WIMXfeWIyhhHYPymDekKauJrHUnDCO7pXO1SdrDYQDnOLEGgPVxC3M-BVo0wXsBX4yDP50_TsUw8ph2cuExKtWxmJjezBfJ5J058a2KDLVpT5asH_bLG8jH7Qaavf9iZKmrCmVFJdWOqLYQ-v1Ln8xSGhRrU4y9LDsfL)
